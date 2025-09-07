@@ -9,12 +9,17 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
+    <div className="flex min-h-screen items-center justify-center bg-cyber-void neural-bg">
       <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">404</h1>
-        <p className="mb-4 text-xl text-gray-600">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 underline hover:text-blue-700">
-          Return to Home
+        <h1 className="mb-4 text-6xl font-orbitron font-bold cyber-glow">404</h1>
+        <p className="mb-4 text-xl font-rajdhani text-muted-foreground">
+          SECTOR NOT FOUND IN NEURAL NETWORK
+        </p>
+        <a 
+          href="/" 
+          className="inline-flex items-center gap-2 px-6 py-3 bg-neon-blue hover:bg-neon-cyan text-cyber-void font-rajdhani font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+        >
+          RETURN TO MAINFRAME
         </a>
       </div>
     </div>

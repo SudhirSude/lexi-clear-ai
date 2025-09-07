@@ -47,16 +47,42 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // Cyberpunk colors
+        cyber: {
+          void: "hsl(var(--void-black))",
+          navy: "hsl(var(--deep-navy))",
+          dark: "hsl(var(--cyber-dark))",
         },
+        neon: {
+          blue: "hsl(var(--neon-blue))",
+          cyan: "hsl(var(--electric-cyan))",
+          magenta: "hsl(var(--cyber-magenta))",
+          purple: "hsl(var(--neural-purple))",
+          green: "hsl(var(--hologram-green))",
+        },
+        risk: {
+          low: "hsl(var(--risk-low))",
+          medium: "hsl(var(--risk-medium))",
+          high: "hsl(var(--risk-high))",
+          critical: "hsl(var(--risk-critical))",
+        },
+        neural: {
+          node: "hsl(var(--neural-node))",
+          connection: "hsl(var(--neural-connection))",
+          pulse: "hsl(var(--neural-pulse))",
+        },
+      },
+      fontFamily: {
+        'orbitron': ['Orbitron', 'monospace'],
+        'rajdhani': ['Rajdhani', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
+      },
+      boxShadow: {
+        'holo': 'var(--holo-glow)',
+        'holo-border': 'var(--holo-border)', 
+        'holo-shadow': 'var(--holo-shadow)',
+        'neon': '0 0 20px currentColor',
+        'neural': '0 0 30px hsl(var(--neon-blue) / 0.3)',
       },
       borderRadius: {
         lg: "var(--radius)",
